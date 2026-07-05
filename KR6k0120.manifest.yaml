@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0120_000.yaml, hash: 'sha256:3fd9c362946ffba0b06e068d4c8873600c58e353c4b543af953eb18c8042c11e'}
-  - {seq: 1, filename: KR6k0120_001.yaml, hash: 'sha256:8dd6998b9f12cf42855c84192b196e39b01d81d98a09be787bc39a70f40a92ea'}
+  - {seq: 1, filename: KR6k0120_001.yaml, hash: 'sha256:faca9fa9d357bef26609e76dd844e76ecbb697cb1fa0cfb395fdb30546a1f9a7'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6k0120_001.markers.yaml, hash: 'sha256:63e61c952bc9fa22598a4829b0ef28e301a2fec6841cd4605eae4bb2b430e3ca'}
+  - {seq: 0, role: markers, filename: assets/KR6k0120_000.markers.yaml, hash: 'sha256:8b817a0c96907a3da41a73278777e00a854eda7e82b6f0e3231d28b4c475a3d6'}
+  - {seq: 1, role: markers, filename: assets/KR6k0120_001.markers.yaml, hash: 'sha256:7793ca4c5ed33bed5db2011eac2d8608b02861af02a79e490da9331119650803'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 佛說八種長養功德經
   type: juan
   level: 1
-hash: sha256:ac4b6c2b17fa30b8815dfdec42ebbab7994d86aafc6d98bd2d6849ecfa6b81a4
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:ca2975db645c30b75ca375166d7d78ba498195c248bd62cc6d566a1fa07443a2
