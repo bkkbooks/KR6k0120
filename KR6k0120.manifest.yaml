@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6k0120/v1
 canonical_location: https://kanripo.org/bkk/KR6k0120/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說八種長養功德經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0120_000.yaml, hash: 'sha256:3fd9c362946ffba0b06e068d4c8873600c58e353c4b543af953eb18c8042c11e'}
-  - {seq: 1, filename: KR6k0120_001.yaml, hash: 'sha256:faca9fa9d357bef26609e76dd844e76ecbb697cb1fa0cfb395fdb30546a1f9a7'}
+  - {seq: 1, filename: KR6k0120_001.yaml, hash: 'sha256:532c0b6942422fd2414f0d46e570b74424e25dd89418a90008d35150dea4bc6e'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6k0120_000.markers.yaml, hash: 'sha256:8b817a0c96907a3da41a73278777e00a854eda7e82b6f0e3231d28b4c475a3d6'}
-  - {seq: 1, role: markers, filename: assets/KR6k0120_001.markers.yaml, hash: 'sha256:7793ca4c5ed33bed5db2011eac2d8608b02861af02a79e490da9331119650803'}
+  - {seq: 1, role: markers, filename: assets/KR6k0120_001.markers.yaml, hash: 'sha256:cd988a81a9268443aec48cf1617a9a65efd1142ee7f2a66285cb4f3cb2507a90'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說八種長養功德經
   type: juan
   level: 1
-hash: sha256:ca2975db645c30b75ca375166d7d78ba498195c248bd62cc6d566a1fa07443a2
+hash: sha256:a217cc99c0b413dcf0c318990017069346fefa98f8b93d3d6d548451b4f68cd1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
